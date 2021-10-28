@@ -1,0 +1,29 @@
+{
+  "navigation": {
+    "input_form": "Input Form",
+    "review": "Review"
+  },
+  "input_form": {
+    "name": {
+      "label": "Name",
+      "hint": "Input name...",
+      "error": {
+        "required": "The name field is required."
+      }
+    },
+    "address": {
+      "label": "Address",
+      "hint": "Street, house..."
+    },
+    "zip_code": {
+      "label": "Zipcode",
+      "hint": "Input zipcode..."
+    },
+    "city": {
+      "label": "City",
+      "hint": "Input city name..."
+    },
+    "button": "Preview Order"
+  },
+  "review_orders": "Here you can review your orders:"
+}

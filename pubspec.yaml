@@ -1,0 +1,54 @@
+name: lupiter
+description: A chat app for the contractors.
+version: 0.0.1
+repository: https://github.com/bot-fluttercrew/lupiter.git
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ^2.0.0
+
+# DEPENDENCY UPDATE: 2021-05-10
+dependencies:
+  convex_bottom_bar: ^3.0.0
+  easy_localization: ^3.0.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^7.0.0
+  google_fonts: ^2.0.0
+  shared_preferences: ^2.0.5
+  sqflite: ^2.0.0+3
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.9.0
+  flutter_native_splash: ^1.1.8+4
+
+flutter:
+  uses-material-design: false
+  assets:
+    - assets/fonts/
+    - assets/icon.png
+    - assets/translations/en-GB.json
+
+  fonts:
+    - family: LupiterIcons
+      fonts:
+        - asset: assets/LupiterIcons.ttf
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: icon.png
+  remove_alpha_ios: true
+  # image_path_ios: 'assets/icon/icon_ios.png'
+  # adaptive_icon_background: 'assets/icon/icon_background.png'
+  # adaptive_icon_foreground: 'assets/icon/cart.png'
+
+flutter_native_splash:
+  color: "#f9dac5"
+  image: icon.png
+  color_dark: "#404040"
+  image_dark: icon.png
+  fullscreen: true
+  # android_gravity: center
+  # ios_content_mode: center
